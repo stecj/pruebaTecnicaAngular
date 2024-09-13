@@ -1,0 +1,26 @@
+.game-detail {
+  .game-thumbnail {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .full-description {
+    line-height: 1.6;
+  }
+
+  .game-info {
+    p {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    &:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+  }
+}

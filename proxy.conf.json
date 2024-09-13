@@ -1,0 +1,14 @@
+{
+  "/api": {
+    "target": "https://free-to-play-games-database.p.rapidapi.com",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+    "^/api": "/api"
+    },
+    "headers": {
+    "X-RapidAPI-Host": "free-to-play-games-database.p.rapidapi.com",
+    "X-RapidAPI-Key": "896d602649msh9b2d83df13e6d5cp1c21dcjsn2246d53595fb"
+    }
+  }
+}
